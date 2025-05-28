@@ -1,11 +1,11 @@
 body {
-    background-color: rgb(155, 207, 223);
+    background-color: rgba(155, 207, 223, 0.5);
     font-family: "quicksand", serif;
 }
 
 .container {
     max-width: 800px;
-    margin: 40px auto;
+    margin: 20px auto;
 }
 
 h1 {
@@ -21,6 +21,8 @@ h1 {
 
 img {
     width: 100%;
+    background-color: rgb(66, 41, 37);
+    border-radius: 30px;
 }
 
 h3 {
@@ -33,7 +35,6 @@ h3 {
     letter-spacing: 1px;
 }
 
-
 form {
     padding: 30px;
     margin-top: 30px;
@@ -44,12 +45,13 @@ form {
 }
 .second-container {
     background-color: aliceblue;
+    max-width: 800px;
     border-radius: 15px;
     margin: 20px auto;
     box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.1);
-    
 }
-.text-box {
+
+#text-box {
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -60,7 +62,7 @@ form {
     color: rgb(143, 91, 82, 0.5);
 }
 
-.submit-button {
+#submit-button {
     padding: 10px 25px;
     border: none;
     border-radius: 5px;
@@ -71,12 +73,6 @@ form {
     margin: 0 10px;
 }
 
-.submit-button :hover {
-    color: rgb(66, 41, 37);
-    background-color: aliceblue;
-    cursor: pointer;
-
-}
 
 .recipe {
     color: rgb(66, 41, 37);
@@ -86,6 +82,7 @@ form {
 }
 
 footer {
+    font-size: 12px;
     padding: 20px;
     margin-top: 400px;
     margin-bottom: 20px;
