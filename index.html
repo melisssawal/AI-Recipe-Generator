@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="sources/style.css" />
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
     <title>AI Recipe Generator</title>
 </head>
 <body>
@@ -18,14 +19,13 @@
 AI Recipe Generator
     </h3>
     <main>
-        <form> 
+        <form id="recipe-form"> 
             <input class="text-box"type="text" placeholder="Enter a recipe you would like to create..." autofocus required />
             <input class="submit-button" type="submit" />
         </form>
         <div class="second-container">
         <div class="recipe">
-Chocolate Chip Cookies 
-        </br>
+Chocolate Chip Cookies </br>
 Butter  </br>
 Salt </br>
 Flour </br>
