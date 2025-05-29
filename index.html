@@ -7,9 +7,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="sources/style.css" />
-    
-    
-    <title>AI Recipe Generator</title>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <title>AI Bakery Recipe Generator</title>
 </head>
 <body>
 
@@ -18,18 +18,18 @@
         The World is Yours to Eat!
     </h1>
     <h3>
-AI Recipe Generator
+AI Bakery Recipe Generator
     </h3>
     <div class="container">
     <main>
         <form id="recipe-form"> 
-            <input id="text-box"type="text" placeholder="Enter a recipe you would like to create..." autofocus required />
+            <input id="text-box"type="text" placeholder="Enter a recipe you would like to create..." autofocus required  autocomplete="off" id="user-instruction"/>
             <input id="submit-button" type="submit" />
         </form>
         </main></div>
         <div class="second-container">
 <div class="recipe" id="recipe">
-
+</div>
     </main>
 <footer>
     This project was coded by 
