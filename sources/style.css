@@ -4,10 +4,19 @@ font-family: "quicksand", serif;
 }
 
 .container {
-    max-width: 800px;
+    max-width: 777px;
     margin: 20px auto;
+    background-color: rgb(252, 249, 242);
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.1);
 }
 
+.form-example {
+ font-size: 11px;
+ color: rgb(31, 41, 74);
+ margin: 5px 0px 5px 10px;
+}
 img {
     display: block;
     margin: 0 auto;
@@ -30,7 +39,6 @@ h1 {
     top: 76px;
     left: 280px;
     right: 277px;
-
 }
 
 
@@ -45,12 +53,12 @@ h3 {
 }
 
 form {
-    padding: 30px;
-    margin-top: 30px;
+    padding: 5px;
+    margin-top: 13px;
     display: flex;
     background-color: rgb(252, 249, 242);
     border-radius: 15px;
-    box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.1);
+    
 }
 .second-container {
     background-color: rgb(252, 249, 242);
@@ -61,14 +69,14 @@ form {
 }
 
 #text-box {
-    padding: 10px;
+    padding: 15px;
     border: none;
     border-radius: 5px;
     font-family: "scope one", serif;
     font-size: 16px;
-    width: 80%;
-    background-color: rgb(255, 228, 196, 0.4);
-    color: rgb(143, 91, 82, 0.5);
+    width: 88%;
+    background-color: rgba(217, 235, 246, 0.5);
+    color: rgb(31, 41, 74);
 }
 
 #submit-button {
@@ -83,6 +91,13 @@ form {
     margin: 0 10px;
 }
 
+#submit-button:hover {
+    cursor: pointer;
+    color: rgb(189, 209, 75);
+    background-color: rgb(31, 41, 74) ;
+    transition: all 300ms ease-in-out;
+}
+
 .recipe {
     color: rgb(31, 41, 74);
     margin: 0px 35px;
@@ -90,15 +105,23 @@ form {
     line-height: 25px;
 }
 
+.hidden {
+    display: none;
+}
+
 footer {
     font-size: 12px;
     padding: 20px;
     margin-top: 400px;
-    margin-bottom: 20px;
     color: rgb(31, 41, 74);
     text-align: center;
+    font-weight: bold;
 }
 
 a {
     color: rgb(189, 209, 75);
+}
+
+a:visited {
+    color: rgb(248, 98, 73);
 }

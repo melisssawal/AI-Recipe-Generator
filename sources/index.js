@@ -23,6 +23,9 @@ console.log("Generating recipe");
 console.log(`prompt: ${prompt}`);
 console.log(`context: ${context}`);
 
+let recipeSection = document.querySelector("#recipe");
+recipeSection.classList.remove("hidden");
+
 new Typewriter('#recipe', {
   strings: ["Generating a recipe...are you feeling hungry??"],
   autoStart: true,  

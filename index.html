@@ -12,7 +12,6 @@
     <title>AI Bakery Recipe Generator</title>
 </head>
 <body>
-
     <img  class="image-border" src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/166/850/original/cartoon-kitchen-utensils-and-tools-cooking-equipment-kitchenware-cutlery-pot-saucepan-cup-bowl-cookware-elements-set-vector.jpg?1748478802" />
     <h1>
         The World is Yours to Eat!
@@ -21,22 +20,23 @@
 AI Bakery Recipe Generator
     </h3>
     <div class="container">
-    <main>
         <form id="recipe-form"> 
-            <input id="text-box"type="text" placeholder="Enter a recipe you would like to create..." autofocus required  autocomplete="off" />
+            <input id="text-box"type="text" placeholder="Enter a baking recipe you would like to create..." autofocus required  autocomplete="off" />
             <input id="submit-button" type="submit" />
         </form>
-        </main></div>
+        <div class="form-example">
+        i.e: Vanilla Cake, Crossiants, Sandwhich Bread, Lemon Bars</div> 
+        </div>
+
         <div class="second-container">
-<div class="recipe" id="recipe">
-</div>
-    </main>
+<div class="recipe hidden" id="recipe">
+</div></div>
 <footer>
     This project was coded by 
     <a href="https://github.com/melisssawal" target="_blank">Melissa Waldinger</a>, is open-sourced on <a href="https://github.com/melisssawal/AI-Recipe-Generator" target="_blank">
     GitHub</a> and hosted on <a href="https://ai-recipe-generator-waldinger.netlify.app/" target="_blank">Netlify.</a> 
 </footer>
-</div>
+
     <script src="sources/index.js"></script>
 </body>
 </html>
